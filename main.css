@@ -1,0 +1,279 @@
+*{
+    margin: 0;
+    font-family: arial;
+    border: border-box;
+}
+
+/**********LOGO SECTION**********/
+.logo {
+	height: 60px;
+    width: 200px;
+    margin-left: 40px;
+}
+
+/**********MENU SECTION**********/
+nav {
+	float: right;
+	padding: 25px 0px;
+}
+
+nav a {
+	color: black;
+	text-decoration: none;
+	font-size: 18px;
+	padding: 2px 10px;
+	font-weight: 500;
+    margin-right: 20pz;
+}
+.container{
+    height: 70px;
+    background-color: #fbfbfb;
+}
+
+
+.border{
+    border:1px solid transparent ;
+border-radius: 3px;
+}
+.border:hover{
+    border: 1px solid rgb(233, 229, 229);
+}
+
+.panel{
+height: 10px;
+background-color:rgb(237, 194, 113);
+width: 100%;
+justify-content: space-evenly;
+}
+
+.imageslider{
+
+    width: 100%;
+    height: 700px;
+  background-image: url('quantum\ 1.jpg');
+background-size: 100% 100%;
+box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+animation: changeImage 15s linear infinite;
+}
+@keyframes changeImage {
+    0%{
+        background-image: url('qu4.jpg');
+    }
+    25%{
+        background-image: url('qu3.jpg');
+    }
+    50%{
+        background-image: url('quantum\ image\ 2.jpg');
+    }
+    75%{
+        background-image: url('qu5.jpg');
+    }
+    100%{
+        background-image: url('qu4.jpg');
+    }
+}
+.panel2{
+
+    height: 180px;
+    background-color:#f0f3fa;
+    width: 100%;
+    align-items: center;
+
+}
+.paneltext1{
+   
+   padding: 10px;
+   font-family: sans-serif;
+   font-size: 6vh;
+   font-weight: 700;
+   line-height: 1.3em;
+   color: #ea2284;
+   text-shadow: 2px 2px 2px rgba(0,0,0,.2);
+ 
+   font-style: italic;
+   margin-left:450px ;
+   
+}
+.paneltext2{
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 6vh;
+  color: #EA2284;   
+  text-shadow: 2px 2px 2px rgba(0,0,0,.2);
+  font-style: italic;
+  font-weight: 700;
+  line-height: 1.3em;
+ 
+
+}
+.about{
+text-align: start;
+color: #812972;
+font-size: 5vh;
+font-weight: 500;
+font-family: sans-serif;
+margin-left: 30px;;
+margin-top: 20px;
+
+}
+.paragraph{
+text-align: center;
+padding-left: 200px;
+padding-right: 200px;
+padding-top: 20px;
+font-family: sans-serif;
+
+}
+/***images**/
+
+.image1{
+    background-image: url(img1.jpg);
+    width: 250px;
+    height: 200px;
+    margin-left: 40px;
+    margin-top: 20px;
+    background-size: 100% 100%;
+    float: left;
+}
+.image2{
+    background-image: url(img2.jpg);
+    width: 250px;
+    height: 200px;
+    margin-left:40px;
+    margin-top: 20px;
+    background-size: 100% 100%;
+       float: left;
+}
+.image3{
+    background-image: url(img3.jpg);
+    width: 250px;
+    height: 200px;
+    margin-left: 40px;
+    margin-top: 20px;
+    background-size: 100% 100%;
+    display: flex;
+   float: left;
+}
+.image4{
+    background-image: url(img4.jpg);
+    width: 250px;
+    height: 200px;
+    margin-left: 40px;
+    margin-top: 20px;
+    background-size: 100% 100%;
+    display: flex;
+   float: left;
+}
+.image5{
+    background-image: url(img5.jpg);
+    width: 250px;
+    height: 200px;
+    margin-left: 40px;
+    margin-top: 20px;
+    background-size: 100% 100%;
+  
+  
+    float: left;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+/********** News, Event, Notice Board CSS Starts **********/  
+.event {
+    width: 31%;
+    margin-right: 1%;
+    float: left;
+    margin-top: 20px;
+    color: #812972;
+}
+.heading{
+
+    margin-left: 80px;
+}
+.event div {
+    padding:10px;
+    background-color:#f0f3fa;
+    margin-top: 20px;
+    margin-left: 80px;
+    
+}
+.event ul li {
+    margin-bottom: 20px;
+    width: 100%;
+    float: left;
+    
+
+}
+
+
+/**footer***/
+
+.footer {
+    background-color:#1f2836;
+    height: 250px;
+    padding:70px 0px;
+    width:100%;
+    float:left;
+}
+.footer-sect {
+    width:33%;
+    float:left;
+    margin-top: 100px;
+}
+.footer-sect h2 {
+    color:#f0f3fa;
+    margin-bottom: 20px;
+    margin-left: 10px;
+}
+.footer-sect p {
+    color:#f0f3fa;
+    line-height: 22px;
+    font-family: sans-serif;
+    padding:0px 30px 20px 0px;
+    margin-left: 10px;
+}
+.footer-menu li {
+    width: 50%;
+    float: left;
+    font-family: sans-serif;
+    margin-bottom: 10px;
+}
+.footer-menu li a {
+    color:#fff;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+.footer-contact li {
+    margin-bottom:15px;
+    list-style: none;
+    color: #fff;
+    font-family: sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
